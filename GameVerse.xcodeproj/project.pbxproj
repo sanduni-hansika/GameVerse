@@ -10,9 +10,33 @@
 		DF8F426F2FF3A1EB002E0E81 /* GameVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DF8F42832FF3B55E002E0E81 /* Exceptions for "GameVerse" folder in "GameVerse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = DF8F426E2FF3A1EB002E0E81 /* GameVerse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		DF8F42842FF3B55E002E0E81 /* Exceptions for "GameVerse" folder in "Compile Sources" phase from "GameVerse" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = DF8F426B2FF3A1EB002E0E81 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DF8F42712FF3A1EB002E0E81 /* GameVerse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DF8F42832FF3B55E002E0E81 /* Exceptions for "GameVerse" folder in "GameVerse" target */,
+				DF8F42842FF3B55E002E0E81 /* Exceptions for "GameVerse" folder in "Compile Sources" phase from "GameVerse" target */,
+			);
 			path = GameVerse;
 			sourceTree = "<group>";
 		};
